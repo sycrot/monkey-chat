@@ -1,3 +1,8 @@
+## Monkey Chat
+
+Aplicação web de chat, utilizando next, firebase e redux.
+Nesse chat você pode enviar mensagens de texto e imagem em realtime, ver se usuários estão online, apagar a própria mensagem, criar e alterar seu usuário.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
