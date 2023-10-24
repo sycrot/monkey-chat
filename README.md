@@ -1,30 +1,20 @@
-# Musical Thing
+# Monkey Chat
 
 - [Introduction](#introduction)
 - [Features](#features)
 - [Getting Started](#getting-started)
-- [References](#references)
-- [Design UX/UI](https://www.figma.com/file/2cmRMP5Diw9Io8CYQKfR4y/Musical-Thing?type=design&node-id=0%3A1&mode=design&t=Jr4nDhJ9blkDLgkQ-1)
+- [Design UX/UI](https://www.figma.com/file/vVjs4Od2M51a1D90O9EcsT/monkey-chat?type=design&mode=design&t=VtFpbqQ3LO30ALbg-1)
 
 ## Introduction
 
-O Musical Thing é uma aplicação web voltada para streaming de musicas. Os dados das playlists, albuns, musicas, uruarios e artistas sao consultados atraves da [Web API | Spotify For Developers](https://developer.spotify.com/).
+Aplicação web de chat, utilizando next, firebase e redux. Nesse chat você pode enviar mensagens de texto e imagem em realtime.
 
 ## Features
 <ul>
-  <li>
-  Controles:
-    <ul>
-      <li>Play e pause;</li>
-      <li>Próxima música e música anterior;</li>
-      <li>Modo aleatório;</li>
-      <li>Modos de repetição (Sempre, uma vez);</li>
-      <li>Volume (Aumentar, diminuir, mudo).</li>
-    </ul>
-  </li>
-  <li>Criar e editar suas playlists.</li>
-  <li>Pesquisar músicas, artistas, playlists e álbuns.</li>
-  <li>Seguir/Curtir músicas, artistas, playlists e álbuns.</li>
+  <li>Criar e editar seu perfil.</li>
+  <li>Adicionar nova conversa.</li>
+  <li>Enviar mensagens de texto.</li>
+  <li>Enviar imagens.</li>
 </ul>
 
 ## Getting Started
