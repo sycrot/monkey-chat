@@ -1,21 +1,47 @@
-## Monkey Chat
+# Musical Thing
 
-Aplicação web de chat, utilizando next, firebase e redux.
-Nesse chat você pode enviar mensagens de texto e imagem em realtime, ver se usuários estão online, apagar a própria mensagem, criar e alterar seu usuário.
+- [Introduction](#introduction)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [References](#references)
+- [Design UX/UI](https://www.figma.com/file/2cmRMP5Diw9Io8CYQKfR4y/Musical-Thing?type=design&node-id=0%3A1&mode=design&t=Jr4nDhJ9blkDLgkQ-1)
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Introduction
+
+O Musical Thing é uma aplicação web voltada para streaming de musicas. Os dados das playlists, albuns, musicas, uruarios e artistas sao consultados atraves da [Web API | Spotify For Developers](https://developer.spotify.com/).
+
+## Features
+<ul>
+  <li>
+  Controles:
+    <ul>
+      <li>Play e pause;</li>
+      <li>Próxima música e música anterior;</li>
+      <li>Modo aleatório;</li>
+      <li>Modos de repetição (Sempre, uma vez);</li>
+      <li>Volume (Aumentar, diminuir, mudo).</li>
+    </ul>
+  </li>
+  <li>Criar e editar suas playlists.</li>
+  <li>Pesquisar músicas, artistas, playlists e álbuns.</li>
+  <li>Seguir/Curtir músicas, artistas, playlists e álbuns.</li>
+</ul>
 
 ## Getting Started
 
-### .env file example
-NEXT_PUBLIC_FIREBASE_API_KEY=<br>
-NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=<br>
-NEXT_PUBLIC_FIREBASE_PROJECT_ID=<br>
-NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=<br>
-NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=<br>
-NEXT_PUBLIC_FIREBASE_APP_ID=<br>
+Primeiro você precisa de uma aplicação no firebase.
+Você terá que definir um arquivo '.env' e definir as seguintes variáveis:
 
-First, run the development server:
+```
+NEXT_PUBLIC_FIREBASE_API_KEY=
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=
+NEXT_PUBLIC_FIREBASE_PROJECT_ID=
+NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=
+NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=
+NEXT_PUBLIC_FIREBASE_APP_ID=
+```
+<br>
+Run the development server:
 
 ```bash
 npm run dev
@@ -23,25 +49,9 @@ npm run dev
 yarn dev
 # or
 pnpm dev
+# or
+bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<br>
