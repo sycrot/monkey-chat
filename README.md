@@ -19,7 +19,9 @@ Aplicação web de chat, utilizando next, firebase e redux. Nesse chat você pod
 
 ## Getting Started
 
-Primeiro você precisa de uma aplicação no firebase.
+Primeiro você precisa de uma aplicação no Firebase.
+Crie um app da Web, ative um Authentication com provedor de E-mail/senha, crie um Firestore Database, e crie um Storage.
+<br>
 Você terá que definir um arquivo '.env' e definir as seguintes variáveis:
 
 ```
